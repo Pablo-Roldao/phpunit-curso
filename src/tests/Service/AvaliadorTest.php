@@ -11,6 +11,14 @@ use PHPUnit\Framework\TestCase;
 class AvaliadorTest extends TestCase
 {
 
+    private $leiloeiro;
+
+    protected function setUp(): void
+    {
+        echo 'Executando SetUp' . PHP_EOL;
+        $this->leiloeiro = new Avaliador();
+    }
+
 
     /**
      * @dataProvider leilaoEmOrdemCrescente
@@ -19,12 +27,11 @@ class AvaliadorTest extends TestCase
      */
     public function testOAvaliadorDeveEncontrarOMaiorValorDeLances(Leilao $leilao)
     {
-        $leiloeiro = new Avaliador();
 
         // Act - When
-        $leiloeiro->avalia($leilao);
+        $this->leiloeiro->avalia($leilao);
 
-        $maiorValor = $leiloeiro->getMaiorValor();
+        $maiorValor = $this->leiloeiro->getMaiorValor();
 
         // Assert - Then
         self::assertEquals(3000, $maiorValor);
@@ -38,12 +45,11 @@ class AvaliadorTest extends TestCase
      */
     public function testOAvaliadorDeveEncontrarOMenorValorDeLances(Leilao $leilao)
     {
-        $leiloeiro = new Avaliador();
 
         // Act - When
-        $leiloeiro->avalia($leilao);
+        $this->leiloeiro->avalia($leilao);
 
-        $menorValor = $leiloeiro->getMenorValor();
+        $menorValor = $this->leiloeiro->getMenorValor();
 
         // Assert - Then
         self::assertEquals(1700, $menorValor);
@@ -56,10 +62,9 @@ class AvaliadorTest extends TestCase
      */
     public function testOAvaliadorDeveBuscarOsTresMaioresValores(Leilao $leilao)
     {
-        $leiloeiro = new Avaliador();
-        $leiloeiro->avalia($leilao);
+        $this->leiloeiro->avalia($leilao);
 
-        $maioresLances = $leiloeiro->getMaioresLances();
+        $maioresLances = $this->leiloeiro->getMaioresLances();
 
         self::assertCount(3, $maioresLances);
         self::assertEquals(3000, $maioresLances[0]->getValor());
@@ -69,6 +74,8 @@ class AvaliadorTest extends TestCase
 
     public function leilaoEmOrdemCrescente(): array
     {
+        echo 'Criando usuários em ordem crescente' . PHP_EOL;
+
         $leilao = new Leilao('Fiat 147 0km');
         $joao = new Usuario('João');
         $maria = new Usuario('Maria');
@@ -80,11 +87,14 @@ class AvaliadorTest extends TestCase
         $leilao->recebeLance(new Lance($maria, 2500));
         $leilao->recebeLance(new Lance($jorge, 3000));
 
-        return [[$leilao]];
+        return ['ordem crescente' =>[$leilao]];
     }
 
     public function leilaoEmOrdemDecrescente(): array
     {
+        echo 'Criando usuários em ordem decrescente' . PHP_EOL;
+
+
         $leilao = new Leilao('Fiat 147 0km');
         $joao = new Usuario('João');
         $maria = new Usuario('Maria');
@@ -96,11 +106,14 @@ class AvaliadorTest extends TestCase
         $leilao->recebeLance(new Lance($joao, 2000));
         $leilao->recebeLance(new Lance($ana, 1700));
 
-        return [[$leilao]];
+        return ['ordem decrescente' =>[$leilao]];
     }
 
     public function leilaoEmOrdemAleatoria(): array
     {
+        echo 'Criando usuários em ordem aleatória' . PHP_EOL;
+
+
         $leilao = new Leilao('Fiat 147 0km');
         $joao = new Usuario('João');
         $maria = new Usuario('Maria');
@@ -112,6 +125,6 @@ class AvaliadorTest extends TestCase
         $leilao->recebeLance(new Lance($ana, 1700));
         $leilao->recebeLance(new Lance($maria, 2500));
 
-        return [[$leilao]];
+        return ['ordem aleatória' => [$leilao]];
     }
 }

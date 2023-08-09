@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="Alura\Leilao\Tests\Model\LeilaoTest" methodName="testLeilaoNaoDeveReceberLancesRepetidos" prettifiedClassName="Leilao (Alura\Leilao\Tests\Model\Leilao)" prettifiedMethodName="Leilao nao deve receber lances repetidos" status="0" time="0.003661755" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Model\LeilaoTest" methodName="testLeilaoNaoDeveAceitarMaisDeCincoLancesPorUsuario" prettifiedClassName="Leilao (Alura\Leilao\Tests\Model\Leilao)" prettifiedMethodName="Leilao nao deve aceitar mais de cinco lances por usuario" status="0" time="0.000149897" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Model\LeilaoTest" methodName="testLeilaoDeveReceberLances with data set &quot;leilao-dois-lances&quot;" prettifiedClassName="Leilao (Alura\Leilao\Tests\Model\Leilao)" prettifiedMethodName="Leilao deve receber lances with data set &quot;leilao-dois-lances&quot;" status="0" time="9.4071E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Model\LeilaoTest" methodName="testLeilaoDeveReceberLances with data set &quot;leilao-um-lance&quot;" prettifiedClassName="Leilao (Alura\Leilao\Tests\Model\Leilao)" prettifiedMethodName="Leilao deve receber lances with data set &quot;leilao-um-lance&quot;" status="0" time="7.937E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem crescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o maior valor de lances with data set &quot;ordem crescente&quot;" status="0" time="0.000633108" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem decrescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o maior valor de lances with data set &quot;ordem decrescente&quot;" status="0" time="0.000130857" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem aleatória&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o maior valor de lances with data set &quot;ordem aleatória&quot;" status="0" time="9.8625E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem crescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o menor valor de lances with data set &quot;ordem crescente&quot;" status="0" time="0.000140462" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem decrescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o menor valor de lances with data set &quot;ordem decrescente&quot;" status="0" time="0.000153801" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem aleatória&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve encontrar o menor valor de lances with data set &quot;ordem aleatória&quot;" status="0" time="0.000197177" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem crescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve buscar os tres maiores valores with data set &quot;ordem crescente&quot;" status="0" time="8.4324E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem decrescente&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve buscar os tres maiores valores with data set &quot;ordem decrescente&quot;" status="0" time="4.2049E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="Alura\Leilao\Tests\Service\AvaliadorTest" methodName="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem aleatória&quot;" prettifiedClassName="Avaliador (Alura\Leilao\Tests\Service\Avaliador)" prettifiedMethodName="O avaliador deve buscar os tres maiores valores with data set &quot;ordem aleatória&quot;" status="0" time="4.1289E-5" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

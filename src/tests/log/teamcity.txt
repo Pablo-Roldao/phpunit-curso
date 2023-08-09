@@ -1,0 +1,91 @@
+
+##teamcity[testCount count='13' flowId='16106']
+
+##teamcity[testSuiteStarted name='unit' flowId='16106']
+
+##teamcity[testSuiteStarted name='Alura\Leilao\Tests\Model\LeilaoTest' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest' flowId='16106']
+
+##teamcity[testStarted name='testLeilaoNaoDeveReceberLancesRepetidos' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoNaoDeveReceberLancesRepetidos' flowId='16106']
+
+##teamcity[testFinished name='testLeilaoNaoDeveReceberLancesRepetidos' duration='4' flowId='16106']
+
+##teamcity[testStarted name='testLeilaoNaoDeveAceitarMaisDeCincoLancesPorUsuario' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoNaoDeveAceitarMaisDeCincoLancesPorUsuario' flowId='16106']
+
+##teamcity[testFinished name='testLeilaoNaoDeveAceitarMaisDeCincoLancesPorUsuario' duration='0' flowId='16106']
+
+##teamcity[testSuiteStarted name='testLeilaoDeveReceberLances' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances' flowId='16106']
+
+##teamcity[testStarted name='testLeilaoDeveReceberLances with data set "leilao-dois-lances"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set "leilao-dois-lances"' flowId='16106']
+
+##teamcity[testFinished name='testLeilaoDeveReceberLances with data set "leilao-dois-lances"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testLeilaoDeveReceberLances with data set "leilao-um-lance"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php::\Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances with data set "leilao-um-lance"' flowId='16106']
+
+##teamcity[testFinished name='testLeilaoDeveReceberLances with data set "leilao-um-lance"' duration='0' flowId='16106']
+
+##teamcity[testSuiteFinished name='testLeilaoDeveReceberLances' flowId='16106']
+
+##teamcity[testSuiteFinished name='Alura\Leilao\Tests\Model\LeilaoTest' flowId='16106']
+
+##teamcity[testSuiteStarted name='Alura\Leilao\Tests\Service\AvaliadorTest' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest' flowId='16106']
+
+##teamcity[testSuiteStarted name='testOAvaliadorDeveEncontrarOMaiorValorDeLances' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMaiorValorDeLances' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem crescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem crescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem crescente"' duration='1' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem decrescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem decrescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem decrescente"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem aleatória"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem aleatória"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set "ordem aleatória"' duration='0' flowId='16106']
+
+##teamcity[testSuiteFinished name='testOAvaliadorDeveEncontrarOMaiorValorDeLances' flowId='16106']
+
+##teamcity[testSuiteStarted name='testOAvaliadorDeveEncontrarOMenorValorDeLances' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMenorValorDeLances' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem crescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem crescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem crescente"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem decrescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem decrescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem decrescente"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem aleatória"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem aleatória"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveEncontrarOMenorValorDeLances with data set "ordem aleatória"' duration='0' flowId='16106']
+
+##teamcity[testSuiteFinished name='testOAvaliadorDeveEncontrarOMenorValorDeLances' flowId='16106']
+
+##teamcity[testSuiteStarted name='testOAvaliadorDeveBuscarOsTresMaioresValores' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveBuscarOsTresMaioresValores' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem crescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem crescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem crescente"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem decrescente"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem decrescente"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem decrescente"' duration='0' flowId='16106']
+
+##teamcity[testStarted name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem aleatória"' locationHint='php_qn:///home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php::\Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem aleatória"' flowId='16106']
+Executando SetUp
+
+##teamcity[testFinished name='testOAvaliadorDeveBuscarOsTresMaioresValores with data set "ordem aleatória"' duration='0' flowId='16106']
+
+##teamcity[testSuiteFinished name='testOAvaliadorDeveBuscarOsTresMaioresValores' flowId='16106']
+
+##teamcity[testSuiteFinished name='Alura\Leilao\Tests\Service\AvaliadorTest' flowId='16106']
+
+##teamcity[testSuiteFinished name='unit' flowId='16106']

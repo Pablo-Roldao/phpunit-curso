@@ -1,0 +1,15 @@
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="unit">
+            <directory>src/tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+        <junit outputFile="src/tests/log/junit.xml"/>
+        <teamcity outputFile="src/tests/log/teamcity.txt"/>
+        <testdoxHtml outputFile="src/tests/log/testdox.html"/>
+        <testdoxText outputFile="src/tests/log/testdox.txt"/>
+        <testdoxXml outputFile="src/tests/log/testdox.xml"/>
+        <text outputFile="src/tests/log/logfile.txt"/>
+    </logging>
+</phpunit>

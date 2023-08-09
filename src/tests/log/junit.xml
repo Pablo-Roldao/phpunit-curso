@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="13" assertions="27" errors="0" warnings="0" failures="0" skipped="0" time="0.005507">
+    <testsuite name="unit" tests="13" assertions="27" errors="0" warnings="0" failures="0" skipped="0" time="0.005507">
+      <testsuite name="Alura\Leilao\Tests\Model\LeilaoTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php" tests="4" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.003985">
+        <testcase name="testLeilaoNaoDeveReceberLancesRepetidos" class="Alura\Leilao\Tests\Model\LeilaoTest" classname="Alura.Leilao.Tests.Model.LeilaoTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php" line="14" assertions="2" time="0.003662"/>
+        <testcase name="testLeilaoNaoDeveAceitarMaisDeCincoLancesPorUsuario" class="Alura\Leilao\Tests\Model\LeilaoTest" classname="Alura.Leilao.Tests.Model.LeilaoTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php" line="26" assertions="2" time="0.000150"/>
+        <testsuite name="Alura\Leilao\Tests\Model\LeilaoTest::testLeilaoDeveReceberLances" tests="2" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.000173">
+          <testcase name="testLeilaoDeveReceberLances with data set &quot;leilao-dois-lances&quot;" class="Alura\Leilao\Tests\Model\LeilaoTest" classname="Alura.Leilao.Tests.Model.LeilaoTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php" line="54" assertions="3" time="0.000094"/>
+          <testcase name="testLeilaoDeveReceberLances with data set &quot;leilao-um-lance&quot;" class="Alura\Leilao\Tests\Model\LeilaoTest" classname="Alura.Leilao.Tests.Model.LeilaoTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Model/LeilaoTest.php" line="54" assertions="2" time="0.000079"/>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Alura\Leilao\Tests\Service\AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" tests="9" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.001522">
+        <testsuite name="Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMaiorValorDeLances" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000863">
+          <testcase name="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem crescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="28" assertions="1" time="0.000633">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem decrescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="28" assertions="1" time="0.000131">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveEncontrarOMaiorValorDeLances with data set &quot;ordem aleatória&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="28" assertions="1" time="0.000099">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+        </testsuite>
+        <testsuite name="Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveEncontrarOMenorValorDeLances" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.000491">
+          <testcase name="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem crescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="46" assertions="1" time="0.000140">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem decrescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="46" assertions="1" time="0.000154">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveEncontrarOMenorValorDeLances with data set &quot;ordem aleatória&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="46" assertions="1" time="0.000197">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+        </testsuite>
+        <testsuite name="Alura\Leilao\Tests\Service\AvaliadorTest::testOAvaliadorDeveBuscarOsTresMaioresValores" tests="3" assertions="12" errors="0" warnings="0" failures="0" skipped="0" time="0.000168">
+          <testcase name="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem crescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="63" assertions="4" time="0.000084">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem decrescente&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="63" assertions="4" time="0.000042">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+          <testcase name="testOAvaliadorDeveBuscarOsTresMaioresValores with data set &quot;ordem aleatória&quot;" class="Alura\Leilao\Tests\Service\AvaliadorTest" classname="Alura.Leilao.Tests.Service.AvaliadorTest" file="/home/pabloroldao/courses/php/phpunit/src/tests/Service/AvaliadorTest.php" line="63" assertions="4" time="0.000041">
+            <system-out>Executando SetUp
+</system-out>
+          </testcase>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
